@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0 ;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+.content{
+    border: 2px solid black;
+    width: 500px;
+    height: 28px;
+    overflow: hidden;     transition :all 0.3s linear;
+}
+.menu{
+    margin-top: 20px;
+}
+.show{
+    height: 150px;
+ 
+}
